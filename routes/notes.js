@@ -4,15 +4,8 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/',(req,res)=>{
+router.get('/notes',(req,res)=>{
 
-
-obj = {
-
-    a :"this is notes",
-    num : 6
-}    
-    res.json(obj);
 })
 
 
