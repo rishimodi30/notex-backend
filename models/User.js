@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 //import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new Schema({
 
     name : {
 
